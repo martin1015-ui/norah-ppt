@@ -1,0 +1,58 @@
+   body {
+    background-color: aqua;
+    
+  }
+  
+  
+  .main {
+    height: 100px; 
+    background-color: blue;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    font-size: xx-large; 
+    color: red; 
+  }
+  
+  .first {
+    display: flex; 
+    justify-content: center; 
+    font-weight: bold; 
+  }
+  
+  .question {
+    height: 200px; 
+    display: flex; 
+    justify-content: center; 
+  }
+  
+  .question input[type="text"] {
+    width: 50%; /* Make the input field width 100% of the .question container */
+    padding: 10px;
+    font-size: large;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+    border: 2px solid gray;
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+  }
+  
+  .submit {
+    width: 100px; 
+    height: 50px;
+    display: block;
+    margin: auto; 
+    color:brown; 
+    margin-bottom: 10px;
+    background-color: bisque;
+    cursor: pointer;
+  }
+
+  
+.reset {
+  display: block;
+  margin: auto; 
+  background-color: white; 
+  width: 100px;
+  height: 50px; 
+  cursor: pointer;
+}
